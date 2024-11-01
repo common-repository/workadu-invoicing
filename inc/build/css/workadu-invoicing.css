@@ -1,0 +1,34 @@
+.wp-core-ui select {
+    max-width: 90% !important; /* Adjust the margin as needed */
+}
+
+.center-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.loading-popup {
+    position: absolute;
+    color: #03162b;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7); /* Set the background opacity here */
+    padding: 30px;
+}
+
+.loading-popup img {
+    margin-left: 120px;
+}
+
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+}
